@@ -1,0 +1,24 @@
+{
+  "name": "krabik-birthday",
+  "version": "1.0.0",
+  "description": "Telegram bot created to show closest Krabik`s birthday",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "prestart": "npm install",
+    "start": "npm run prestart && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/korzhik123/telegramBirthday.git"
+  },
+  "author": "Olzhas Aitbekov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/korzhik123/telegramBirthday/issues"
+  },
+  "homepage": "https://github.com/korzhik123/telegramBirthday#readme",
+  "dependencies": {
+    "telegraf": "^3.21.2"
+  }
+}
