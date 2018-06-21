@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/korzhik123/telegramBirthday#readme",
   "dependencies": {
+    "node-telegram-bot-api": "^0.30.0",
     "telegraf": "^3.21.2"
   }
 }
