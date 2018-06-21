@@ -19,7 +19,7 @@ const birthday = [
     {name: 'Коржика', bday: new Date('May 9, 1996')}
 ];
 
-var j = schedule.scheduleJob('30 17 * * *', function(){
+var j = schedule.scheduleJob('10 * * * * *', function(){
     checkBirthday();
 });
 
